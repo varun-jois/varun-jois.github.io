@@ -6,8 +6,8 @@ subtitle: PhD Candidate, Computer Science, Brandeis University
 
 profile:
   align: right
-  image: # prof_pic.jpg
-  image_circular: false
+  image: prof_pic.jpeg
+  image_circular: True
   more_info:
 
 selected_papers: true
