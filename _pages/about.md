@@ -18,7 +18,7 @@ announcements:
 
 latest_posts:
   enabled: false
----
+----
 
 PhD candidate in Computer Science specialising in computer vision and 
 generative AI for faces. My research focuses on the use of reference 
