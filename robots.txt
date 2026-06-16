@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://varun-jois.github.io/sitemap.xml
