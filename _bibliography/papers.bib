@@ -1,115 +1,84 @@
----
----
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@unpublished{jois2026review,
+  author    = {Jois, Varun Ramesh},
+  title     = {Paper Under Review},
+  note      = {Under Review, BMVC 2026},
+  year      = {2026},
+  month={November},
+  abstract  = {A diffusion based method for facial expression 
+             transfer and intensity control using a reference image 
+             and a scalar value, without requiring expert knowledge 
+             of facial representation systems.},
+  selected  = {true},
+  code      = {https://github.com/varun-jois/expression-control},
+  preview   = {flametracer_out.png},
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+
+@INPROCEEDINGS{11510464,
+  author={Jois, Varun Ramesh and DiLillo, Antonella and Storer, James},
+  booktitle={2026 Data Compression Conference (DCC)}, 
+  title={FSFVE: Few Shot Compressed Face Video Enhancement}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={133-142},
+  abstract={Videocalling has become a popular form of communication in the world today, with many companies providing free services for it. However, there are still millions of people around the world that experience poor quality videocalls due to limitations in bandwidth. This despite, most people having the required hardware. In this paper we present a novel framework for enhancing highly compressed videocalls. We show, that with as little as 10 frames of the face, we can rapidly (in under 100 seconds) train a model to enhance that instance of the videocall. The model can be trained either prior to or during the call, enhancing the rest of the call by producing better quality video. The video conferencing application need not be modified - it can be off the shelf with our system as a layer on top that trains quickly then simply lets the video conferencing application (e.g. Zoom) run as usual, where our system intercepts and improves images before they are displayed. The model is designed to run in realtime on low-compute devices such as a typical laptop CPU. Experimentally, we show that the model significantly improves quality of compressed face video both quantitatively as well as perceptually. Code can be found at https://github.com/varun-jois/FSFVE.},
+  keywords={Modeling;Videos;Training;Faces;Printing;Radio access networks;Regional area networks;Timing;Equations;Central Processing Unit;face enhancement;realtime;videoconferencing},
+  doi={10.1109/DCC66757.2026.00021},
+  ISSN={2375-0359},
+  month={March},
+  code={https://github.com/varun-jois/FSFVE},
+  selected={true},
+  preview={fsfve_stills.png}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+
+@InProceedings{10.1007/978-3-032-04968-1_12,
+author="Jois, Varun Ramesh
+and DiLillo, Antonella
+and Storer, James",
+editor="Castrill{\'o}n-Santana, Modesto
+and Travieso-Gonz{\'a}lez, Carlos M.
+and Deniz Suarez, Oscar
+and Freire-Obreg{\'o}n, David
+and Hern{\'a}ndez-Sosa, Daniel
+and Lorenzo-Navarro, Javier
+and Santana, Oliverio J.",
+title="RTFVE: Realtime Face Video Enhancement",
+booktitle="Computer Analysis of Images and Patterns",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="136--148",
+abstract="There's been a surge in adoption of video conferencing applications for both personal and business use cases. However, the bandwidth limitations faced by many users worldwide may restrict the optimal use of such applications. Although deep learning offers a solution for enhancing low bit rate videos, most models today are either hard to incorporate with modern compression standards or require specialized hardware to run such as significant GPUs making these models impractical. To address these issues, we introduce the Realtime Face Video Enhancement (RTFVE) model which can be easily incorporated with any video decoder and can run in realtime on ordinary CPUs. Experiments show that our model improves perceptual quality over the compressed video baseline at multiple low bitrate settings. The source code will be made available at https://github.com/varun-jois/RTFVE.",
+isbn="978-3-032-04968-1",
+code={https://github.com/varun-jois/RTFVE},
+selected={true},
+preview={rtfve_stills.png}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
+
+@InProceedings{10.1007/978-981-96-0911-6_24,
+author="Jois, Varun Ramesh
+and DiLillo, Antonella
+and Storer, James",
+editor="Cho, Minsu
+and Laptev, Ivan
+and Tran, Du
+and Yao, Angela
+and Zha, Hongbin",
+title="Reference-Based Face Super-Resolution Using the Spatial Transformer",
+booktitle="Computer Vision -- ACCV 2024",
+year="2025",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="409--425",
+abstract="Face super-resolution is the task of increasing the resolution of an image containing a face thereby adding finer detail. It is a ubiquitous task in many computer vision applications and quite often the user isn't even aware that it is being performed. However, doing it with high fidelity is challenging as it is an ill-posed problem. In this paper we present a reference-based solution for face super-resolution that uses higher resolution reference images to aid in the task. We show an alignment module based on the spatial transformer that is considerably more stable than the popular deformable convolutions. We also show an aggregation function that can take good quality information from the reference images when available or suppress the function when such information is unavailable. Finally, we show that our relatively smaller model can achieve state of the art results on multiple datasets. The source code is available at https://github.com/varun-jois/FSRST.",
+isbn="978-981-96-0911-6",
+code={https://github.com/varun-jois/FSRST},
+selected={true},
+preview={fsrst_framework.png}
 }
 
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
-}
